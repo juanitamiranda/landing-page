@@ -14,9 +14,9 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <Route exact path="/" component={() => ( <Main /> )} />
+          <Route exact path="/landing-page/" component={() => ( <Main /> )} />
           <Switch>
-            <Redirect from="*" to="/" />
+            <Redirect from="*" to="/landing-page/" />
           </Switch>
         </div>
       </Router>

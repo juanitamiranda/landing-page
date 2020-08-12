@@ -10,6 +10,7 @@ class Main extends Component {
     this.state = {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
+      slogan: "Estar asegurado es estar protedigo.",
       contact: ["Foto de Juanita Miranda Ortiz", "INFORMACIÓN DE CONTACTO", "Número de Teléfono", "Correo Electrónico"]
     }
     this.es = this.es.bind(this);
@@ -24,6 +25,7 @@ class Main extends Component {
     this.setState({
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
+      slogan: "Estar asegurado es estar protedigo.",
       contact: ["Foto de Juanita Miranda Ortiz", "INFORMACIÓN DE CONTACTO", "Número de Teléfono", "Correo Electrónico"]
     });
   }
@@ -32,6 +34,7 @@ class Main extends Component {
     this.setState({
       title: "Juanita Miranda Ortiz | Insurance Agent",
       job: "Insurance Agent", 
+      slogan: "To be insured is to be protected.",
       contact: ["Photo of Juanita Miranda Ortiz", "CONTACT INFORMATION", "Phone Number", "Email Address"]
     });
   }
@@ -46,6 +49,7 @@ class Main extends Component {
       	<div className="hero">
       		<h1>Juanita Miranda Ortiz</h1>
        		<h2>{this.state.job}</h2>
+          <h3>{this.state.slogan}</h3>
       	</div>
         <div className="container">
           <div className="photo">

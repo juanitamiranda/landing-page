@@ -24,6 +24,7 @@ h1 {
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
+	font-style: italic;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
 
 h3 {
 	text-align: center;
+	font-weight: 400;
 }
 
 h4 {

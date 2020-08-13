@@ -11,6 +11,7 @@ html, body {
 }
 
 h1 {
+	font-size: 36px;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
@@ -19,18 +20,22 @@ h1 {
 }
 
 h2 {
+	font-size: 28px;
 	font-weight: 300;
 	text-align: center;
 	color: #22417D;
 }
 
 h3 {
+	font-size: 26px;
+	font-style: italic;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	color: #000000;
 }
 
 h4 {
+	font-size: 18px;
 	text-align: center;
 	font-weight: 400;
 	color: #424242;
@@ -38,7 +43,7 @@ h4 {
 }
 
 h5 {
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: 400;
 	color: #ffffff;
 }
@@ -46,6 +51,7 @@ h5 {
 .flyers-flex p > a{
 	color: #22417D;
 	text-decoration: none; 
+	font-size: 18px;
 }
 
 .flyers-flex p > a:hover{
@@ -55,6 +61,7 @@ h5 {
 .contact p > a{
 	color: #ffffff;
 	text-decoration: none; 
+	font-size: 18px;
 }
 
 .contact p > a:hover{
@@ -62,7 +69,7 @@ h5 {
 }
 
 button {
-	padding: 1% 1.5%;
+	padding: 1%;
 	margin: 1%;
 	float: right;
 	background: none;
@@ -72,7 +79,7 @@ button {
     text-shadow: 0px 0px 0px transparent;
     -webkit-box-shadow: none;
    	box-shadow: none;
-   	font-size: 14px;
+   	font-size: 15px;
    	color: #22417D;
 }
 
@@ -85,8 +92,8 @@ button:hover {
 	margin-top: 1.5%;
 	color: #424242;
 	float: right;
-	font-size: 23px;
 	font-weight: 200;
+	font-size: 24px;
 }
 
 .navigation {
@@ -126,9 +133,9 @@ button:hover {
 .download {
 	padding: 4% 0 0 0;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	color: #000000;
-	font-size: 18px;
+	font-size: 26px;
 }
 
 .flyers {
@@ -175,7 +182,7 @@ button:hover {
 }
 
 .info {
-	padding: 3% 0% 4%;
+	padding: 4% 0% 5%;
 	margin: 0;
 	width: 100%;
 	background-color: #22417D;
@@ -219,13 +226,16 @@ button:hover {
   	font-size: 22px;
   }
   h3 {
-  	font-size: 18px;
+  	font-size: 20px;
   }
   h4 {
   	font-size: 15px;
   }
   h5 {
-  	font-size: 18px;
+  	font-size: 20px;
+  }
+  .download {
+  	font-size: 20px;
   }
   .flyer-flex p > a{
   	font-size: 15px;

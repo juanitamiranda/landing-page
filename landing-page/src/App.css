@@ -14,33 +14,39 @@ body {
 	background: #F6FBFD;
 }
 
-a { 
-	text-decoration: none; 
-	color: #000000;
-}
-
 h1 {
-	font-size: 38px;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
 	font-style: italic;
+	color: #22417D;
 }
 
 h2 {
-	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
+	color: #22417D;
 }
 
 h3 {
 	text-align: center;
 	font-weight: 400;
+	color: #424242;
 }
 
 h4 {
 	font-size: 24px;
 	font-weight: 400;
+	color: #ffffff;
+}
+
+p > a{
+	color: #ffffff;
+	text-decoration: none; 
+}
+
+p > a:hover{
+	color: #57B6DB;
 }
 
 button {
@@ -55,10 +61,12 @@ button {
     -webkit-box-shadow: none;
    	box-shadow: none;
    	font-size: 16px;
+   	color: #22417D;
 }
 
 button:hover {
 	cursor: pointer;
+	color: #57B6DB;
 }
 
 .navigation {
@@ -68,10 +76,10 @@ button:hover {
 }
 
 .hero {
-	padding: 22% 0%;
+	padding: 10% 0%;
 	margin: 0;
 	width: 100%;
-	background-image: url("./images/background/shutterstock.png"); 
+	background-color: #f7f7f7;  
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -83,7 +91,7 @@ button:hover {
 	padding: 2% 0%;
 	margin: 0;
 	width: 100%;
-	background-image: url("./images/background/greyzz/greyzz_@2X.png"); 
+	background-color: #22417D;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -98,10 +106,11 @@ button:hover {
 }
 
 .agentphoto {
-	width: 70%;
+	width: 55%;
 	border-radius: 50%;
 	float: right;
-	padding: 10% 5%;
+	margin: 10% 5%;
+	border: #ffffff 1px solid;
 }
 
 .contact {

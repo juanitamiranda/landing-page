@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcac6f37a41a80472a1d4e500c6ea0f1",
+    "revision": "f4e3fbb43fd21ebb52f546f0fc29a137",
     "url": "/landing-page/index.html"
   },
   {
-    "revision": "ee8912b34e5eff7d3e53",
-    "url": "/landing-page/static/css/main.0e7dda93.chunk.css"
+    "revision": "f4c5fd9224c71ad62814",
+    "url": "/landing-page/static/css/main.538979e2.chunk.css"
   },
   {
-    "revision": "2a907a64ce1ef2f2a942",
-    "url": "/landing-page/static/js/2.5244be0b.chunk.js"
+    "revision": "9f664836c69121905492",
+    "url": "/landing-page/static/js/2.03f42440.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/landing-page/static/js/2.5244be0b.chunk.js.LICENSE.txt"
+    "url": "/landing-page/static/js/2.03f42440.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee8912b34e5eff7d3e53",
-    "url": "/landing-page/static/js/main.1f09a6c9.chunk.js"
+    "revision": "f4c5fd9224c71ad62814",
+    "url": "/landing-page/static/js/main.472cc2dc.chunk.js"
   },
   {
     "revision": "d803e7ff0721cd373432",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page/static/media/cancer.ab3efd7d.png"
   },
   {
+    "revision": "c71b3484d225765ef2efb512f55a3da6",
+    "url": "/landing-page/static/media/cancerribbon.c71b3484.png"
+  },
+  {
     "revision": "4f2fd415299404e88ab16b54da05ed10",
     "url": "/landing-page/static/media/dental.4f2fd415.pdf"
   },
@@ -48,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page/static/media/dental.d4e35297.png"
   },
   {
-    "revision": "56dcd4153ddfd832503941b7a1843bcb",
-    "url": "/landing-page/static/media/email.56dcd415.png"
+    "revision": "b55078d5e3405d8cfd06a0975f280e8c",
+    "url": "/landing-page/static/media/email.b55078d5.png"
   },
   {
     "revision": "352908378d3e2647d6046843b4b78fe3",
     "url": "/landing-page/static/media/juanitamirandaortiz.35290837.png"
   },
   {
-    "revision": "fbb3a92e69e778bdfb2ffad5990c45bf",
-    "url": "/landing-page/static/media/phone.fbb3a92e.png"
+    "revision": "8d1e2feeeea705d28c8b88b16fe82eb6",
+    "url": "/landing-page/static/media/planesmedicos.8d1e2fee.png"
   },
   {
     "revision": "20eedba9acd4ed190c6af405809d103b",
@@ -66,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea8bd8247e2874539936c0ca40c57365",
     "url": "/landing-page/static/media/salus.ea8bd824.pdf"
+  },
+  {
+    "revision": "abea22df13487b51b2f8f1bcd5e1de5f",
+    "url": "/landing-page/static/media/vida.abea22df.png"
   }
 ]);

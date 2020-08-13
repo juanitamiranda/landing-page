@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.af9e881d.chunk.css",
-    "main.js": "/landing-page/static/js/main.c19b96c5.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.c19b96c5.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.0e7dda93.chunk.css",
+    "main.js": "/landing-page/static/js/main.139fe38d.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.139fe38d.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.8c4e35fe.js.map",
-    "static/js/2.0f85bb87.chunk.js": "/landing-page/static/js/2.0f85bb87.chunk.js",
-    "static/js/2.0f85bb87.chunk.js.map": "/landing-page/static/js/2.0f85bb87.chunk.js.map",
+    "static/js/2.5244be0b.chunk.js": "/landing-page/static/js/2.5244be0b.chunk.js",
+    "static/js/2.5244be0b.chunk.js.map": "/landing-page/static/js/2.5244be0b.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.6c3682f6506f82911bd0540911f21334.js": "/landing-page/precache-manifest.6c3682f6506f82911bd0540911f21334.js",
+    "precache-manifest.58b0611e79b7322ca3c1482f795c8429.js": "/landing-page/precache-manifest.58b0611e79b7322ca3c1482f795c8429.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.af9e881d.chunk.css.map": "/landing-page/static/css/main.af9e881d.chunk.css.map",
-    "static/js/2.0f85bb87.chunk.js.LICENSE.txt": "/landing-page/static/js/2.0f85bb87.chunk.js.LICENSE.txt",
+    "static/css/main.0e7dda93.chunk.css.map": "/landing-page/static/css/main.0e7dda93.chunk.css.map",
+    "static/js/2.5244be0b.chunk.js.LICENSE.txt": "/landing-page/static/js/2.5244be0b.chunk.js.LICENSE.txt",
+    "static/media/beneficios.png": "/landing-page/static/media/beneficios.14fc6bd6.png",
+    "static/media/beneficios.pdf": "/landing-page/static/media/beneficios.489a111f.pdf",
+    "static/media/cancer.pdf": "/landing-page/static/media/cancer.69deb074.pdf",
+    "static/media/cancer.png": "/landing-page/static/media/cancer.ab3efd7d.png",
+    "static/media/dental.pdf": "/landing-page/static/media/dental.4f2fd415.pdf",
+    "static/media/dental.png": "/landing-page/static/media/dental.508a610c.png",
     "static/media/email.png": "/landing-page/static/media/email.56dcd415.png",
     "static/media/juanitamirandaortiz.png": "/landing-page/static/media/juanitamirandaortiz.35290837.png",
     "static/media/phone.png": "/landing-page/static/media/phone.fbb3a92e.png",
-    "static/media/App.css": "/landing-page/static/media/shutterstock.da0eeb2c.png"
+    "static/media/salus.png": "/landing-page/static/media/salus.20eedba9.png",
+    "static/media/salus.pdf": "/landing-page/static/media/salus.ea8bd824.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
-    "static/js/2.0f85bb87.chunk.js",
-    "static/css/main.af9e881d.chunk.css",
-    "static/js/main.c19b96c5.chunk.js"
+    "static/js/2.5244be0b.chunk.js",
+    "static/css/main.0e7dda93.chunk.css",
+    "static/js/main.139fe38d.chunk.js"
   ]
 }

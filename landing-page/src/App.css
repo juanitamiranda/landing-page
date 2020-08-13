@@ -10,10 +10,6 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-	background: #F1F1F1;
-}
-
 h1 {
 	font-weight: 400;
 	text-transform: uppercase;
@@ -30,11 +26,18 @@ h2 {
 
 h3 {
 	text-align: center;
-	font-weight: 400;
-	color: #424242;
+	font-weight: 300;
+	color: #000000;
 }
 
 h4 {
+	text-align: center;
+	font-weight: 400;
+	color: #424242;
+	text-transform: uppercase;
+}
+
+h5 {
 	font-size: 24px;
 	font-weight: 400;
 	color: #ffffff;
@@ -96,17 +99,69 @@ button:hover {
 	background-size: cover;
 }
 
-.services {
+.slogan {
+	background: #ffffff;
+	text-align: center;
 	display: flex;
+}
+
+.slogan-flex {
+	flex: 1;
+	padding: 3% 0 0;
+}
+
+.line {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	height: 1px;
+	background: #424242;
+}
+
+.download {
+	padding: 4% 0 0 0;
+	text-align: center;
+	font-weight: 300;
+	color: #000000;
+	font-size: 18px;
+}
+
+.flyers {
+	margin: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
 	background: #ffffff;
 }
 
-.flex {
+.flyers-flex {
 	flex: 1;
-	padding: 3% 0;
+	padding: 4% 0;
 }
 
-.container {
+.flyers-flex img {
+	margin: auto;
+	width: 100%;
+	max-width: 200px;
+	opacity: .7;
+}
+
+.flyers-flex img:hover {
+	opacity: 1;
+}
+
+.services {
+	display: flex;
+	flex-direction: row;
+	background: #ffffff;
+}
+
+.services-flex {
+	flex: 1;
+	padding: 1% 0 3%;
+}
+
+.info {
 	padding: 2% 0%;
 	margin: 0;
 	width: 100%;
@@ -151,7 +206,10 @@ button:hover {
 	width: 30%;
 	float: none;
   }
-  .container {
+  .info {
   	flex-direction: column;
+  }
+  .flyers {
+	flex-direction: column;
   }
 }

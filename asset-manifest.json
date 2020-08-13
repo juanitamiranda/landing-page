@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.538979e2.chunk.css",
+    "main.css": "/landing-page/static/css/main.e110c9db.chunk.css",
     "main.js": "/landing-page/static/js/main.472cc2dc.chunk.js",
     "main.js.map": "/landing-page/static/js/main.472cc2dc.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
@@ -8,9 +8,9 @@
     "static/js/2.03f42440.chunk.js": "/landing-page/static/js/2.03f42440.chunk.js",
     "static/js/2.03f42440.chunk.js.map": "/landing-page/static/js/2.03f42440.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.62407baa0c231cd46c9ef2834f398e29.js": "/landing-page/precache-manifest.62407baa0c231cd46c9ef2834f398e29.js",
+    "precache-manifest.12470fd1dd766c6571a3c48acf37c03b.js": "/landing-page/precache-manifest.12470fd1dd766c6571a3c48acf37c03b.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.538979e2.chunk.css.map": "/landing-page/static/css/main.538979e2.chunk.css.map",
+    "static/css/main.e110c9db.chunk.css.map": "/landing-page/static/css/main.e110c9db.chunk.css.map",
     "static/js/2.03f42440.chunk.js.LICENSE.txt": "/landing-page/static/js/2.03f42440.chunk.js.LICENSE.txt",
     "static/media/beneficios.png": "/landing-page/static/media/beneficios.14fc6bd6.png",
     "static/media/beneficios.pdf": "/landing-page/static/media/beneficios.489a111f.pdf",
@@ -21,6 +21,7 @@
     "static/media/dental.png": "/landing-page/static/media/dental.d4e35297.png",
     "static/media/email.png": "/landing-page/static/media/email.b55078d5.png",
     "static/media/juanitamirandaortiz.png": "/landing-page/static/media/juanitamirandaortiz.35290837.png",
+    "static/media/App.css": "/landing-page/static/media/light_grey_@2X.916fbc52.jpg",
     "static/media/planesmedicos.png": "/landing-page/static/media/planesmedicos.8d1e2fee.png",
     "static/media/salus.png": "/landing-page/static/media/salus.20eedba9.png",
     "static/media/salus.pdf": "/landing-page/static/media/salus.ea8bd824.pdf",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
     "static/js/2.03f42440.chunk.js",
-    "static/css/main.538979e2.chunk.css",
+    "static/css/main.e110c9db.chunk.css",
     "static/js/main.472cc2dc.chunk.js"
   ]
 }

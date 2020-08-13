@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4e3fbb43fd21ebb52f546f0fc29a137",
+    "revision": "1fa1391a03f53043e7a4342d068f3895",
     "url": "/landing-page/index.html"
   },
   {
-    "revision": "f4c5fd9224c71ad62814",
-    "url": "/landing-page/static/css/main.538979e2.chunk.css"
+    "revision": "8ce2975198a0d66a44d5",
+    "url": "/landing-page/static/css/main.e110c9db.chunk.css"
   },
   {
     "revision": "9f664836c69121905492",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landing-page/static/js/2.03f42440.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4c5fd9224c71ad62814",
+    "revision": "8ce2975198a0d66a44d5",
     "url": "/landing-page/static/js/main.472cc2dc.chunk.js"
   },
   {
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "352908378d3e2647d6046843b4b78fe3",
     "url": "/landing-page/static/media/juanitamirandaortiz.35290837.png"
+  },
+  {
+    "revision": "916fbc5242a89830c1e6f3842d4bae7b",
+    "url": "/landing-page/static/media/light_grey_@2X.916fbc52.jpg"
   },
   {
     "revision": "8d1e2feeeea705d28c8b88b16fe82eb6",

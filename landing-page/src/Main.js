@@ -98,19 +98,19 @@ class Main extends Component {
         <div className="flyers">
           <div className="flyers-flex">
           <a href={SalusPDF} download="FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf" target="_black"><img src={Salus} alt="{this.state.flyers[0]}" /></a>
-          <p>{this.state.flyers[0]}</p>
+          <p><a href={SalusPDF} download="FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf" target="_black">{this.state.flyers[0]}</a></p>
           </div>
           <div className="flyers-flex">
           <a href={CancerPDF} download="Flyer Poliza Protect-Digital.pdf" target="_black"><img src={Cancer} alt={this.state.flyers[1]} /></a>
-          <p>{this.state.flyers[1]}</p>
+          <p><a href={CancerPDF} download="Flyer Poliza Protect-Digital.pdf" target="_black">{this.state.flyers[1]}</a></p>
           </div>
           <div className="flyers-flex">
           <a href={DentalPDF} download="FOLLETO DENTAL - 2020.pdf" target="_black"><img src={Dental} alt={this.state.flyers[2]} /></a>
-          <p>{this.state.flyers[2]}</p>
+          <p><a href={DentalPDF} download="FOLLETO DENTAL - 2020.pdf" target="_black">{this.state.flyers[2]}</a></p>
           </div>
           <div className="flyers-flex">
           <a href={BeneficiosPDF} download="FOLLETO RESUMEN BENEFICIOS 2020 digitalactualizado 2.pdf" target="_black"><img src={Beneficios} alt={this.state.flyers[3]} /></a>
-          <p>{this.state.flyers[3]}</p>
+          <p><a href={BeneficiosPDF} download="FOLLETO RESUMEN BENEFICIOS 2020 digitalactualizado 2.pdf" target="_black">{this.state.flyers[3]}</a></p>
           </div>
         </div>
         <div className="info">

@@ -43,12 +43,21 @@ h5 {
 	color: #ffffff;
 }
 
-p > a{
+.flyers-flex p > a{
+	color: #22417D;
+	text-decoration: none; 
+}
+
+.flyers-flex p > a:hover{
+	color: #57B6DB;
+}
+
+.contact p > a{
 	color: #ffffff;
 	text-decoration: none; 
 }
 
-p > a:hover{
+.contact p > a:hover{
 	color: #57B6DB;
 }
 
@@ -158,7 +167,6 @@ button:hover {
 }
 
 .services-flex img {
-	height: 150px;
 	max-width: 150px;
 	width: 100%;
 	display: block;

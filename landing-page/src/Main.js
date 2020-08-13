@@ -11,6 +11,9 @@ import Cancer from "./images/cancer.png";
 import CancerPDF from "./pdf/cancer.pdf";
 import Dental from "./images/dental.png";
 import DentalPDF from "./pdf/dental.pdf";
+import PlanesMedicos from "./images/planesmedicos.png";
+import CancerRibbon from "./images/cancerribbon.png";
+import Vida from "./images/vida.png";
 
 
 class Main extends Component {
@@ -22,7 +25,7 @@ class Main extends Component {
       slogan: "Estar asegurado es estar protedigo.",
       services: ["Planes Médicos", "Cáncer", "Seguros de Vida"],
       download: "Descargue:",
-      flyers: ["Red de Clínicas", "Póliza de Cáncer", "Dental", "Resumen de Beneficios"],
+      flyers: ["Red de Clínicas", "Folleto de la Póliza de Cáncer", "Folleto de la Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
     }
     this.es = this.es.bind(this);
@@ -40,7 +43,7 @@ class Main extends Component {
       slogan: "Estar asegurado es estar protedigo.",
       services: ["Planes Médicos", "Cáncer", "Seguros de Vida"],
       download: "Descargue:",
-      flyers: ["Red de Clínicas", "Póliza de Cáncer", "Dental", "Resumen de Beneficios"],
+      flyers: ["Red de Clínicas", "Folleto de la Póliza de Cáncer", "Folleto de la Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
     });
   }
@@ -52,7 +55,7 @@ class Main extends Component {
       slogan: "To be insured is to be protected.",
       services: ["Healthcare Plan", "Cancer", "Life Insurance"],
       download: "Download:",
-      flyers: ["Clinics", "Cancer Insurance", "Dental", "Summary of Benefits"],
+      flyers: ["Clinics", "Cancer Insurance Brochure", "Dental Coverage Brochure", "Summary of Benefits"],
       contact: ["Photo of Juanita Miranda Ortiz", "Contact Information", "Phone Number", "Email Address"]
     });
   }
@@ -77,12 +80,15 @@ class Main extends Component {
         <div className="services">
           <div className="services-flex">
           <h4>{this.state.services[0]}</h4>
+          <img src={PlanesMedicos} alt={this.state.services[0]} />
           </div>
           <div className="services-flex">
           <h4>{this.state.services[1]}</h4>
+          <img src={CancerRibbon} alt={this.state.services[1]} />
           </div>
           <div className="services-flex">
           <h4>{this.state.services[2]}</h4>
+          <img src={Vida} alt={this.state.services[2]} />
           </div>
         </div>
         <div class="line"></div>

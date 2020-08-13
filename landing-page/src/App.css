@@ -115,7 +115,7 @@ button:hover {
 	margin: 0 auto;
 	width: 60%;
 	height: 1px;
-	background: #424242;
+	background: #F1F1F1;
 }
 
 .download {
@@ -161,8 +161,15 @@ button:hover {
 	padding: 1% 0 3%;
 }
 
+.services-flex img {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .info {
-	padding: 2% 0%;
+	padding: 3% 0% 4%;
 	margin: 0;
 	width: 100%;
 	background-color: #22417D;

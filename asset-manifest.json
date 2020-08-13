@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.9ff16ebf.chunk.css",
+    "main.css": "/landing-page/static/css/main.4f356910.chunk.css",
     "main.js": "/landing-page/static/js/main.8807989a.chunk.js",
     "main.js.map": "/landing-page/static/js/main.8807989a.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
@@ -8,9 +8,9 @@
     "static/js/2.874f737e.chunk.js": "/landing-page/static/js/2.874f737e.chunk.js",
     "static/js/2.874f737e.chunk.js.map": "/landing-page/static/js/2.874f737e.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.3f41b5f22acb01f969b50c8e0b76dbd9.js": "/landing-page/precache-manifest.3f41b5f22acb01f969b50c8e0b76dbd9.js",
+    "precache-manifest.9079cf2780b9263e740d9dea1b6403da.js": "/landing-page/precache-manifest.9079cf2780b9263e740d9dea1b6403da.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.9ff16ebf.chunk.css.map": "/landing-page/static/css/main.9ff16ebf.chunk.css.map",
+    "static/css/main.4f356910.chunk.css.map": "/landing-page/static/css/main.4f356910.chunk.css.map",
     "static/js/2.874f737e.chunk.js.LICENSE.txt": "/landing-page/static/js/2.874f737e.chunk.js.LICENSE.txt",
     "static/media/beneficios.png": "/landing-page/static/media/beneficios.14fc6bd6.png",
     "static/media/beneficios.pdf": "/landing-page/static/media/beneficios.489a111f.pdf",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
     "static/js/2.874f737e.chunk.js",
-    "static/css/main.9ff16ebf.chunk.css",
+    "static/css/main.4f356910.chunk.css",
     "static/js/main.8807989a.chunk.js"
   ]
 }

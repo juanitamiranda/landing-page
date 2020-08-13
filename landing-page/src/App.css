@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-	background: #F6FBFD;
+	background: #F1F1F1;
 }
 
 h1 {
@@ -60,7 +60,7 @@ button {
     text-shadow: 0px 0px 0px transparent;
     -webkit-box-shadow: none;
    	box-shadow: none;
-   	font-size: 16px;
+   	font-size: 14px;
    	color: #22417D;
 }
 
@@ -69,22 +69,41 @@ button:hover {
 	color: #57B6DB;
 }
 
+.language {
+	margin-top: 1.5%;
+	color: #424242;
+	float: right;
+	font-size: 23px;
+	font-weight: 200;
+}
+
 .navigation {
 	padding: 0%;
 	margin: 0;
 	width: 100%;
+	background: #22417D;
 }
 
 .hero {
 	padding: 10% 0%;
 	margin: 0;
 	width: 100%;
-	background-color: #f7f7f7;  
+	background-color: #F1F1F1;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.services {
+	display: flex;
+	background: #ffffff;
+}
+
+.flex {
+	flex: 1;
+	padding: 3% 0;
 }
 
 .container {

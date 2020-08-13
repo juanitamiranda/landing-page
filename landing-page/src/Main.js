@@ -11,6 +11,7 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
       slogan: "Estar asegurado es estar protedigo.",
+      services: ["Planes Médicos", "Cáncer", "Seguros de Vida"],
       contact: ["Foto de Juanita Miranda Ortiz", "INFORMACIÓN DE CONTACTO", "Número de Teléfono", "Correo Electrónico"]
     }
     this.es = this.es.bind(this);
@@ -26,6 +27,7 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
       slogan: "Estar asegurado es estar protedigo.",
+      services: ["Planes Médicos", "Cáncer", "Seguros de Vida"],
       contact: ["Foto de Juanita Miranda Ortiz", "INFORMACIÓN DE CONTACTO", "Número de Teléfono", "Correo Electrónico"]
     });
   }
@@ -35,6 +37,7 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Insurance Agent",
       job: "Insurance Agent", 
       slogan: "To be insured is to be protected.",
+      services: ["Healthcare Plan", "Cancer", "Life Insurance"],
       contact: ["Photo of Juanita Miranda Ortiz", "CONTACT INFORMATION", "Phone Number", "Email Address"]
     });
   }
@@ -44,6 +47,7 @@ class Main extends Component {
       <div className="main">
         <div className="navigation">
           <button onClick={this.en}>English</button>
+          <span className="language"> | </span>
           <button onClick={this.es}>Español</button>
         </div>
       	<div className="hero">
@@ -51,6 +55,17 @@ class Main extends Component {
        		<h2>{this.state.job}</h2>
           <h3>{this.state.slogan}</h3>
       	</div>
+        <div className="services">
+          <div className="flex">
+          <h3>{this.state.services[0]}</h3>
+          </div>
+          <div className="flex">
+          <h3>{this.state.services[1]}</h3>
+          </div>
+          <div className="flex">
+          <h3>{this.state.services[2]}</h3>
+          </div>
+        </div>
         <div className="container">
           <div className="photo">
             <img className="agentphoto" src={Juanita} alt={this.state.contact[0]} />

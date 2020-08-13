@@ -211,7 +211,25 @@ button:hover {
 	padding: 0 20px 0 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
+  h1 {
+  	font-size: 26px;
+  }
+  h2 {
+  	font-size: 22px;
+  }
+  h3 {
+
+  }
+  h4 {
+
+  }
+  h5 {
+  	font-size: 20px;
+  }
+  .services-flex img {
+  	max-width: 80px;
+  }
   .agentphoto {
   	display: block;
   	padding: 0;
@@ -224,5 +242,8 @@ button:hover {
   }
   .flyers {
 	flex-direction: column;
+  }
+  .icon {
+	width: 10%;
   }
 }

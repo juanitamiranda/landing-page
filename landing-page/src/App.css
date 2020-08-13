@@ -88,15 +88,11 @@ button:hover {
 }
 
 .hero {
-	padding: 10% 0%;
+	padding: 15% 0%;
 	margin: 0;
 	width: 100%;
-	background-color: #F1F1F1;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-image: url("./images/light_grey/light_grey_@2X.jpg");
+	background-repeat: repeat;
 }
 
 .slogan {
@@ -163,6 +159,8 @@ button:hover {
 
 .services-flex img {
 	height: 150px;
+	max-width: 150px;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 	text-align: center;

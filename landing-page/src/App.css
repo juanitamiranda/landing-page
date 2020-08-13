@@ -97,7 +97,7 @@ button:hover {
 }
 
 .hero {
-	padding: 15% 0%;
+	padding: 20% 0% 15%;
 	margin: 0;
 	width: 100%;
 	background-image: url("./images/light_grey/light_grey_@2X.jpg");
@@ -211,7 +211,7 @@ button:hover {
 	padding: 0 20px 0 0;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   h1 {
   	font-size: 26px;
   }
@@ -219,13 +219,19 @@ button:hover {
   	font-size: 22px;
   }
   h3 {
-
+  	font-size: 18px;
   }
   h4 {
-
+  	font-size: 15px;
   }
   h5 {
-  	font-size: 20px;
+  	font-size: 18px;
+  }
+  .flyer-flex p > a{
+  	font-size: 15px;
+  }
+  .contact p > a{
+  	font-size: 15px;
   }
   .services-flex img {
   	max-width: 80px;

@@ -7,13 +7,13 @@ import TripleS1 from "./images/triples1.png";
 import TripleS2 from "./images/triples2.png";
 import TripleS3 from "./images/triples3.jpg";
 import Beneficios from "./images/beneficios.png";
-import BeneficiosPDF from "./pdf/beneficios.pdf";
+import BeneficiosPDF from "./pdf/FOLLETO RESUMEN BENEFICIOS 2020.pdf";
 import Salus from "./images/salus.png";
-import SalusPDF from "./pdf/salus.pdf";
+import SalusPDF from "./pdf/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf";
 import Cancer from "./images/cancer.png";
-import CancerPDF from "./pdf/cancer.pdf";
+import CancerPDF from "./pdf/Flyer Poliza Protect-Digital.pdf";
 import Dental from "./images/dental.png";
-import DentalPDF from "./pdf/dental.pdf";
+import DentalPDF from "./pdf/FOLLETO DENTAL 2020.pdf";
 import PlanesMedicos from "./images/planesmedicos.png";
 import CancerRibbon from "./images/cancerribbon.png";
 import Vida from "./images/vida.png";
@@ -107,20 +107,20 @@ class Main extends Component {
         </div>
         <div className="flyers">
           <div className="flyers-flex">
-            <a href={SalusPDF} download="FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf" target="_blank"><img src={Salus} alt={this.state.flyers[0]} title={this.state.flyers[0]} /></a>
-            <p><a href={SalusPDF} download="FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf" target="_blank">{this.state.flyers[0]}</a></p>
+            <a href={SalusPDF} target="_blank"><img src={Salus} alt={this.state.flyers[0]} title={this.state.flyers[0]} /></a>
+            <p><a href={SalusPDF} target="_blank">{this.state.flyers[0]}</a></p>
           </div>
           <div className="flyers-flex">
-            <a href={CancerPDF} download="Flyer Poliza Protect-Digital.pdf" target="_blank"><img src={Cancer} alt={this.state.flyers[1]} title={this.state.flyers[1]} /></a>
-            <p><a href={CancerPDF} download="Flyer Poliza Protect-Digital.pdf" target="_blank">{this.state.flyers[1]}</a></p>
+            <a href={CancerPDF} target="_blank"><img src={Cancer} alt={this.state.flyers[1]} title={this.state.flyers[1]} /></a>
+            <p><a href={CancerPDF} target="_blank">{this.state.flyers[1]}</a></p>
           </div>
           <div className="flyers-flex">
-            <a href={DentalPDF} download="FOLLETO DENTAL - 2020.pdf" target="_blank"><img src={Dental} alt={this.state.flyers[2]} title={this.state.flyers[2]} /></a>
-            <p><a href={DentalPDF} download="FOLLETO DENTAL - 2020.pdf" target="_blank">{this.state.flyers[2]}</a></p>
+            <a href={DentalPDF} target="_blank"><img src={Dental} alt={this.state.flyers[2]} title={this.state.flyers[2]} /></a>
+            <p><a href={DentalPDF} target="_blank">{this.state.flyers[2]}</a></p>
           </div>
           <div className="flyers-flex">
-            <a href={BeneficiosPDF} download="FOLLETO RESUMEN BENEFICIOS 2020 digitalactualizado 2.pdf" target="_blank"><img src={Beneficios} alt={this.state.flyers[3]} title={this.state.flyers[3]} /></a>
-            <p><a href={BeneficiosPDF} download="FOLLETO RESUMEN BENEFICIOS 2020 digitalactualizado 2.pdf" target="_blank">{this.state.flyers[3]}</a></p>
+            <a href={BeneficiosPDF} target="_blank"><img src={Beneficios} alt={this.state.flyers[3]} title={this.state.flyers[3]} /></a>
+            <p><a href={BeneficiosPDF} target="_blank">{this.state.flyers[3]}</a></p>
           </div>
         </div>
         <div className="info">

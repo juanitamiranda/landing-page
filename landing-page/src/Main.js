@@ -76,7 +76,7 @@ class Main extends Component {
         </div>
         <div className="slogan">
         <div className="slogan-flex">
-          <h3>{this.state.slogan}</h3>
+          <h1>{this.state.slogan}</h1>
         </div>
         </div>
       	<div className="hero">
@@ -103,7 +103,7 @@ class Main extends Component {
         </div>
         <div class="line"></div>
         <div className="download">
-        {this.state.download}
+        <h3>{this.state.download}</h3>
         </div>
         <div className="flyers">
           <div className="flyers-flex">

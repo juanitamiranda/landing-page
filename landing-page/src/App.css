@@ -11,9 +11,8 @@ html, body {
 }
 
 h1 {
-	font-size: 36px;
-	font-weight: 400;
-	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
 	text-align: center;
 	font-style: italic;
 	color: #ffffff;
@@ -31,6 +30,7 @@ h3 {
 	text-align: center;
 	font-weight: 400;
 	color: #000000;
+	margin: 0;
 }
 
 h4 {
@@ -123,11 +123,6 @@ button:hover, button:active {
 	padding: 5% 0;
 }
 
-.slogan-flex h3 {
-	color: #ffffff;
-	font-style: italic;
-}
-
 .hero {
 	text-align: center;
 	padding: 7% 0 0;
@@ -177,9 +172,7 @@ button:hover, button:active {
 .download {
 	padding: 4% 0 0 0;
 	text-align: center;
-	font-weight: 400;
 	color: #000000;
-	font-size: 26px;
 }
 
 .flyers {
@@ -198,7 +191,7 @@ button:hover, button:active {
 .flyers-flex img {
 	margin: auto;
 	width: 100%;
-	max-width: 200px;
+	max-width: 180px;
 	opacity: .7;
 }
 
@@ -263,9 +256,9 @@ button:hover, button:active {
 	padding: 0 20px 0 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   h1 {
-  	font-size: 26px;
+  	font-size: 25px;
   }
   h2 {
   	font-size: 22px;
@@ -288,9 +281,6 @@ button:hover, button:active {
   .slogan-flex {
 	padding: 10% 0; 
   }
-  .download {
-  	font-size: 20px;
-  }
   .flyer-flex p > a{
   	font-size: 15px;
   }
@@ -298,10 +288,10 @@ button:hover, button:active {
   	font-size: 15px;
   }
   .services {
-  	padding: 10% 2% 12%;
+  	padding: 11% 5% 12%;
   }
   .services-flex img {
-  	max-width: 80px;
+  	max-width: 70px;
   }
   .agentphoto {
   	display: block;

@@ -16,19 +16,18 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	font-style: italic;
-	color: #22417D;
+	color: #ffffff;
 }
 
 h2 {
 	font-size: 28px;
 	font-weight: 300;
 	text-align: center;
-	color: #22417D;
+	color: #ffffff;
 }
 
 h3 {
 	font-size: 26px;
-	font-style: italic;
 	text-align: center;
 	font-weight: 400;
 	color: #000000;
@@ -46,6 +45,16 @@ h5 {
 	font-size: 26px;
 	font-weight: 400;
 	color: #ffffff;
+	margin: 30px 0 10px;
+}
+
+h6 {
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	margin: 0 0 40px 0;
+	font-size: 18px;
+	color: #d9d9d9;
 }
 
 .flyers-flex p > a{
@@ -59,18 +68,18 @@ h5 {
 }
 
 .contact p > a{
-	color: #ffffff;
+	color: #57B6DB;
 	text-decoration: none; 
 	font-size: 18px;
 }
 
 .contact p > a:hover{
-	color: #57B6DB;
+	color: #63d3ff;
 }
 
 button {
-	padding: 1%;
-	margin: 1%;
+	height: 50px;
+	padding: 0 2%;
 	float: right;
 	background: none;
 	background-image: none;
@@ -80,46 +89,82 @@ button {
     -webkit-box-shadow: none;
    	box-shadow: none;
    	font-size: 15px;
-   	color: #22417D;
+   	color: #57B6DB;
 }
 
-button:hover {
+button:hover, button:active {
 	cursor: pointer;
-	color: #57B6DB;
+	color: #63d3ff;
 }
 
 .language {
-	margin-top: 1.5%;
-	color: #424242;
+	margin-top: 10px;
+	color: #57B6DB;
 	float: right;
 	font-weight: 200;
 	font-size: 24px;
 }
 
 .navigation {
-	padding: 0%;
-	margin: 0;
+	height: 50px;
 	width: 100%;
-	background: #22417D;
-}
-
-.hero {
-	padding: 20% 0% 15%;
-	margin: 0;
-	width: 100%;
-	background-image: url("./images/light_grey/light_grey_@2X.jpg");
-	background-repeat: repeat;
+	background: #1b3463;
+	display: block;
 }
 
 .slogan {
-	background: #ffffff;
+	background-color: #22417D;
 	text-align: center;
-	display: flex;
+	display: block;
 }
 
 .slogan-flex {
-	flex: 1;
-	padding: 3% 0 0;
+	display: block;
+	padding: 5% 0;
+}
+
+.slogan-flex h3 {
+	color: #ffffff;
+	font-style: italic;
+}
+
+.hero {
+	text-align: center;
+	padding: 7% 0 0;
+	margin: 0 auto;
+	width: 80%;
+	/*background-image: url("./images/light_grey/light_grey_@2X.jpg");*/
+	background-repeat: repeat;
+}
+
+.triples1 {
+	width: 100%;
+	max-width: 33.775%;
+	display: inline-block;
+	margin: 5px;
+}
+
+.triples2 {
+	width: 100%;
+	max-width: 33.6%;
+	display: inline-block;
+	margin: 6px;
+}
+
+.triples3 {
+	width: 100%;
+	max-width: 33.5%;
+	display: inline-block;
+	margin: 6px;
+	border-bottom: 4px solid #FFCE38;
+}
+
+.video {
+	width: 100%;
+	max-width: 33.75%;
+	display: inline-block;
+	margin: 5px;
+	border-bottom: 4px solid #FFCE38;
 }
 
 .line {
@@ -127,7 +172,7 @@ button:hover {
 	margin: 0 auto;
 	width: 60%;
 	height: 1px;
-	background: #F1F1F1;
+	background: #d9d9d9;
 }
 
 .download {
@@ -166,11 +211,11 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	background: #ffffff;
+	padding: 5% 0;
 }
 
 .services-flex {
 	flex: 1;
-	padding: 1% 0 3%;
 }
 
 .services-flex img {
@@ -196,19 +241,20 @@ button:hover {
 }
 
 .photo {
-	flex: 1;
+	flex: 2;
 }
 
 .agentphoto {
-	width: 55%;
+	width: 100%;
+	max-width: 180px;
 	border-radius: 50%;
 	float: right;
-	margin: 10% 5%;
+	margin: 10% 0;
 	border: #ffffff 1px solid;
 }
 
 .contact {
-	flex: 3;
+	flex: 4;
 	padding: 0 5%;
 }
 
@@ -233,6 +279,9 @@ button:hover {
   }
   h5 {
   	font-size: 20px;
+  }
+  h6 {
+  	font-size: 15px;
   }
   .download {
   	font-size: 20px;
@@ -261,5 +310,28 @@ button:hover {
   }
   .icon {
 	width: 10%;
+  }
+  .triples1 {
+	max-width: 87.775%;
+	display: block;
+	margin: 0 auto;
+  }
+
+  .triples2 {
+	max-width: 87.6%;
+	display: block;
+	margin: 0 auto;
+  }
+
+  .triples3 {
+	max-width: 87.5%;
+	display: block;
+	margin: 0 auto;
+  }
+
+  .video {
+	max-width: 87.75%;
+	display: block;
+	margin: 0 auto;
   }
 }

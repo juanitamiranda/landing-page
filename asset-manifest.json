@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.79f83ccd.chunk.css",
+    "main.css": "/landing-page/static/css/main.04a0dc20.chunk.css",
     "main.js": "/landing-page/static/js/main.b75b07f7.chunk.js",
     "main.js.map": "/landing-page/static/js/main.b75b07f7.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
@@ -8,9 +8,9 @@
     "static/js/2.3873f462.chunk.js": "/landing-page/static/js/2.3873f462.chunk.js",
     "static/js/2.3873f462.chunk.js.map": "/landing-page/static/js/2.3873f462.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.2778b20de86c2c5aeeb2ae770306343b.js": "/landing-page/precache-manifest.2778b20de86c2c5aeeb2ae770306343b.js",
+    "precache-manifest.ab2e91dfae365f13d836be19ceb41557.js": "/landing-page/precache-manifest.ab2e91dfae365f13d836be19ceb41557.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.79f83ccd.chunk.css.map": "/landing-page/static/css/main.79f83ccd.chunk.css.map",
+    "static/css/main.04a0dc20.chunk.css.map": "/landing-page/static/css/main.04a0dc20.chunk.css.map",
     "static/js/2.3873f462.chunk.js.LICENSE.txt": "/landing-page/static/js/2.3873f462.chunk.js.LICENSE.txt",
     "static/media/FOLLETO DENTAL 2020.pdf": "/landing-page/static/media/FOLLETO DENTAL 2020.4f2fd415.pdf",
     "static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf": "/landing-page/static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.9f17d79f.pdf",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
     "static/js/2.3873f462.chunk.js",
-    "static/css/main.79f83ccd.chunk.css",
+    "static/css/main.04a0dc20.chunk.css",
     "static/js/main.b75b07f7.chunk.js"
   ]
 }

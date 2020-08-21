@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.e63f536a.chunk.css",
-    "main.js": "/landing-page/static/js/main.f0439d59.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.f0439d59.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.f37099b9.chunk.css",
+    "main.js": "/landing-page/static/js/main.a4489e13.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.a4489e13.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.8c4e35fe.js.map",
     "static/js/2.3873f462.chunk.js": "/landing-page/static/js/2.3873f462.chunk.js",
     "static/js/2.3873f462.chunk.js.map": "/landing-page/static/js/2.3873f462.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.3727d60c123efe9d3d8052e928fd3d52.js": "/landing-page/precache-manifest.3727d60c123efe9d3d8052e928fd3d52.js",
+    "precache-manifest.9384b79badc8b2ff62f3d01cd2626f8e.js": "/landing-page/precache-manifest.9384b79badc8b2ff62f3d01cd2626f8e.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.e63f536a.chunk.css.map": "/landing-page/static/css/main.e63f536a.chunk.css.map",
+    "static/css/main.f37099b9.chunk.css.map": "/landing-page/static/css/main.f37099b9.chunk.css.map",
     "static/js/2.3873f462.chunk.js.LICENSE.txt": "/landing-page/static/js/2.3873f462.chunk.js.LICENSE.txt",
     "static/media/FOLLETO DENTAL 2020.pdf": "/landing-page/static/media/FOLLETO DENTAL 2020.4f2fd415.pdf",
     "static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf": "/landing-page/static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.9f17d79f.pdf",
@@ -25,15 +25,15 @@
     "static/media/planesmedicos.png": "/landing-page/static/media/planesmedicos.8d1e2fee.png",
     "static/media/salus.png": "/landing-page/static/media/salus.20eedba9.png",
     "static/media/triples.mp4": "/landing-page/static/media/triples.9fab8773.mp4",
-    "static/media/triples1.png": "/landing-page/static/media/triples1.852000c6.png",
-    "static/media/triples2.png": "/landing-page/static/media/triples2.3ecd1d8d.png",
-    "static/media/triples3.jpg": "/landing-page/static/media/triples3.40ac1e8a.jpg",
+    "static/media/triples1.png": "/landing-page/static/media/triples1.ba48e181.png",
+    "static/media/triples2.png": "/landing-page/static/media/triples2.188a5f77.png",
+    "static/media/triples3.jpg": "/landing-page/static/media/triples3.6add6637.jpg",
     "static/media/vida.png": "/landing-page/static/media/vida.abea22df.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
     "static/js/2.3873f462.chunk.js",
-    "static/css/main.e63f536a.chunk.css",
-    "static/js/main.f0439d59.chunk.js"
+    "static/css/main.f37099b9.chunk.css",
+    "static/js/main.a4489e13.chunk.js"
   ]
 }

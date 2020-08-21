@@ -68,7 +68,7 @@ h6 {
 }
 
 .contact p > a{
-	color: #57B6DB;
+	color: #b2dced;
 	text-decoration: none; 
 	font-size: 18px;
 }
@@ -89,12 +89,18 @@ button {
     -webkit-box-shadow: none;
    	box-shadow: none;
    	font-size: 15px;
-   	color: #57B6DB;
+   	color: #b2dced;
 }
 
 button:hover, button:active {
 	cursor: pointer;
 	color: #63d3ff;
+}
+
+.content {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .language {
@@ -133,29 +139,29 @@ button:hover, button:active {
 
 .triples1 {
 	width: 100%;
-	max-width: 33.775%;
+	max-width: 34%;
 	display: inline-block;
 	margin: 5px;
 }
 
 .triples2 {
 	width: 100%;
-	max-width: 33.6%;
+	max-width: 34%;
 	display: inline-block;
-	margin: 6px;
+	margin: 5px;
 }
 
 .triples3 {
 	width: 100%;
-	max-width: 33.5%;
+	max-width: 33.8%;
 	display: inline-block;
-	margin: 6px;
+	margin: 5px;
 	border-bottom: 4px solid #FFCE38;
 }
 
 .video {
 	width: 100%;
-	max-width: 33.75%;
+	max-width: 33.8%;
 	display: inline-block;
 	margin: 5px;
 	border-bottom: 4px solid #FFCE38;
@@ -185,13 +191,12 @@ button:hover, button:active {
 
 .flyers-flex {
 	flex: 1;
-	padding: 4% 0;
+	padding: 3% 0;
 }
 
 .flyers-flex img {
 	margin: auto;
-	width: 100%;
-	max-width: 180px;
+	width: 80%;
 	opacity: .7;
 }
 
@@ -204,6 +209,8 @@ button:hover, button:active {
 	flex-direction: row;
 	background: #ffffff;
 	padding: 5% 0;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .services-flex {
@@ -211,8 +218,7 @@ button:hover, button:active {
 }
 
 .services-flex img {
-	max-width: 150px;
-	width: 100%;
+	width: 35%;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
@@ -267,7 +273,7 @@ button:hover, button:active {
   	font-size: 20px;
   }
   h4 {
-  	font-size: 15px;
+  	font-size: 13px;
   }
   h5 {
   	font-size: 20px;
@@ -291,7 +297,7 @@ button:hover, button:active {
   	padding: 11% 5% 12%;
   }
   .services-flex img {
-  	max-width: 70px;
+	width: 50%;
   }
   .agentphoto {
   	display: block;
@@ -305,6 +311,9 @@ button:hover, button:active {
   }
   .flyers {
 	flex-direction: column;
+  }
+  .flyers-flex img {
+	width: 50%;
   }
   .icon {
 	width: 10%;

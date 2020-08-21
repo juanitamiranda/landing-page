@@ -26,10 +26,10 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
       triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Comunícate conmigo para orientarte sobre el plan de salud más completo. Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
-      slogan: "Estar Cubiertos es estar Seguros.",
+      slogan: "Estar cubiertos es estar seguros.",
       services: ["Recibe orientación sobre:", "Planes Médicos", "Seguro de Cáncer", "Seguros de Vida"],
-      download: "Descargue:",
-      flyers: ["Red de Clínicas", "Folleto de la Póliza de Cáncer", "Folleto de la Cubierta Dental", "Resumen de Beneficios"],
+      download: "Descargas:",
+      flyers: ["Red de Clínicas", "Póliza de Cáncer", "Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
     }
     this.es = this.es.bind(this);
@@ -45,10 +45,10 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
       triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Comunícate conmigo para orientarte sobre el plan de salud más completo. Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
-      slogan: "Estar Cubiertos es estar Seguros.",
+      slogan: "Estar cubiertos es estar seguros.",
       services: ["Recibe orientación sobre:", "Planes Médicos", "Seguro de Cáncer", "Seguros de Vida"],
-      download: "Descargue:",
-      flyers: ["Red de Clínicas", "Folleto de la Póliza de Cáncer", "Folleto de la Cubierta Dental", "Resumen de Beneficios"],
+      download: "Descargas:",
+      flyers: ["Red de Clínicas", "Póliza de Cáncer", "Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
     });
   }
@@ -58,10 +58,10 @@ class Main extends Component {
       title: "Juanita Miranda Ortiz | Insurance Agent",
       job: "Insurance Agent", 
       triples: ['Prevention helps protect you and your family from cancer and 30 dreaded diseases.', 'Triple-S Vida: When you need it most.', 'Triple-S Directo: The health plan that offers medical consultations from your phone or computer with TELECONSULTA MD.', 'Contact me to receive orientation on the most complete health plan. Triple-S Directo offers you a network with more than 13,000 health providers and offers you the innovative TeleConsulta MD service, which allows you to consult with a doctor from your cell phone or computer wherever you are. Call me at (787) 487-0474 for more information.'],
-      slogan: "Being Covered is being Safe.",
+      slogan: "Being insurared is being safe.",
       services: ["Receive orientation about:", "Healthcare Plan", "Cancer Insurance", "Life Insurance"],
       download: "Download:",
-      flyers: ["Clinics", "Cancer Insurance Brochure", "Dental Coverage Brochure", "Summary of Benefits"],
+      flyers: ["Clinics", "Cancer Insurance", "Dental Insurance", "Summary of Benefits"],
       contact: ["Photo of Juanita Miranda Ortiz", "Contact Information", "Phone Number", "Email Address"]
     });
   }
@@ -70,23 +70,30 @@ class Main extends Component {
     return (
       <div className="main">
         <div className="navigation">
+          <div className="content">
           <button onClick={this.en}>English</button>
           <span className="language"> | </span>
           <button onClick={this.es}>Español</button>
+          </div>
         </div>
         <div className="slogan">
         <div className="slogan-flex">
+          <div className="content">
           <h1>{this.state.slogan}</h1>
+          </div>
         </div>
         </div>
       	<div className="hero">
+          <div className="content">
           <img className="triples1" src={TripleS1} alt={this.state.triples[0]} title={this.state.triples[0]} />
           <img className="triples2" src={TripleS2} alt={this.state.triples[1]} title={this.state.triples[1]} />
           <video loop autoPlay className="video" title={this.state.triples[2]} >
           <source src={require('../src/videos/triples.mp4')} type="video/mp4" />
           </video>
           <img className="triples3" src={TripleS3} alt={this.state.triples[3]} title={this.state.triples[3]} />
+          </div>
       	</div>
+        <div className="content">
         <div className="services">
           <div className="services-flex">
           <h4>{this.state.services[1]}</h4>
@@ -122,6 +129,7 @@ class Main extends Component {
             <a href={BeneficiosPDF} target="_blank"><img src={Beneficios} alt={this.state.flyers[3]} title={this.state.flyers[3]} /></a>
             <p><a href={BeneficiosPDF} target="_blank">{this.state.flyers[3]}</a></p>
           </div>
+        </div>
         </div>
         <div className="info">
           <div className="photo">

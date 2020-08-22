@@ -25,7 +25,7 @@ class Main extends Component {
     this.state = {
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
-      triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Comunícate conmigo para orientarte sobre el plan de salud más completo. Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
+      triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
       slogan: "Estar cubiertos es estar seguros.",
       services: ["Recibe orientación sobre:", "Planes Médicos", "Seguro de Cáncer", "Seguros de Vida"],
       download: "Descargas:",
@@ -44,7 +44,7 @@ class Main extends Component {
     this.setState({
       title: "Juanita Miranda Ortiz | Agente de Seguros",
       job: "Agente de Seguros", 
-      triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Comunícate conmigo para orientarte sobre el plan de salud más completo. Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
+      triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
       slogan: "Estar cubiertos es estar seguros.",
       services: ["Recibe orientación sobre:", "Planes Médicos", "Seguro de Cáncer", "Seguros de Vida"],
       download: "Descargas:",
@@ -57,7 +57,7 @@ class Main extends Component {
     this.setState({
       title: "Juanita Miranda Ortiz | Insurance Agent",
       job: "Insurance Agent", 
-      triples: ['Prevention helps protect you and your family from cancer and 30 dreaded diseases.', 'Triple-S Vida: When you need it most.', 'Triple-S Directo: The health plan that offers medical consultations from your phone or computer with TELECONSULTA MD.', 'Contact me to receive orientation on the most complete health plan. Triple-S Directo offers you a network with more than 13,000 health providers and offers you the innovative TeleConsulta MD service, which allows you to consult with a doctor from your cell phone or computer wherever you are. Call me at (787) 487-0474 for more information.'],
+      triples: ['Prevention helps protect you and your family from cancer and 30 dreaded diseases.', 'Triple-S Vida: When you need it most.', 'Triple-S Directo: The health plan that offers medical consultations from your phone or computer with TELECONSULTA MD.', 'Triple-S Directo offers you a network with more than 13,000 health providers and offers you the innovative TeleConsulta MD service, which allows you to consult with a doctor from your cell phone or computer wherever you are. Call me at (787) 487-0474 for more information.'],
       slogan: "Being insurared is being safe.",
       services: ["Receive orientation about:", "Healthcare Plan", "Cancer Insurance", "Life Insurance"],
       download: "Download:",
@@ -71,9 +71,9 @@ class Main extends Component {
       <div className="main">
         <div className="navigation">
           <div className="content">
-          <button onClick={this.en}>English</button>
+          <button onClick={this.en} title="Set site language to English.">English</button>
           <span className="language"> | </span>
-          <button onClick={this.es}>Español</button>
+          <button onClick={this.es} title="Configurar el idioma de la página a español.">Español</button>
           </div>
         </div>
         <div className="slogan">

@@ -133,8 +133,7 @@ button:hover, button:active {
 	text-align: center;
 	padding: 7% 0 0;
 	margin: 0 auto;
-	width: 80%;
-	background-repeat: repeat;
+	width: 100%;
 }
 
 .triples1 {
@@ -262,7 +261,7 @@ button:hover, button:active {
 	padding: 0 20px 0 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   h1 {
   	font-size: 25px;
   }
@@ -321,24 +320,9 @@ button:hover, button:active {
   .download {
 	padding: 10% 0 5%;
   }
-  .triples1 {
-	max-width: 87.775%;
+  .triples1, .triples2, .triples3, .video {
+	max-width: 70%;
 	display: block;
-	margin: 0 auto;
-  }
-  .triples2 {
-	max-width: 87.6%;
-	display: block;
-	margin: 0 auto;
-  }
-  .triples3 {
-	max-width: 87.5%;
-	display: block;
-	margin: 0 auto;
-  }
-  .video {
-	max-width: 87.75%;
-	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
   }
 }

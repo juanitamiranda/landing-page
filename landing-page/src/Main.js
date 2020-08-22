@@ -71,9 +71,9 @@ class Main extends Component {
       <div className="main">
         <div className="navigation">
           <div className="content">
-          <button onClick={this.en} title="Set site language to English.">English</button>
-          <span className="language"> | </span>
           <button onClick={this.es} title="Configurar el idioma de la página a español.">Español</button>
+          <span className="language"> | </span>
+          <button onClick={this.en} title="Set site language to English.">English</button>
           </div>
         </div>
         <div className="slogan">

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
 
 *:focus {
-	outline: none !important;
+	outline: 3px solid #FFCE38 !important;
+	margin: 3px 0 0 0;
 }
 
 html, body {
@@ -78,9 +79,9 @@ h6 {
 }
 
 button {
+	display: inline;
 	height: 50px;
 	padding: 0 2%;
-	float: right;
 	background: none;
 	background-image: none;
 	border-radius: 5%;
@@ -106,7 +107,6 @@ button:hover, button:active {
 .language {
 	margin-top: 10px;
 	color: #57B6DB;
-	float: right;
 	font-weight: 200;
 	font-size: 24px;
 }
@@ -116,6 +116,7 @@ button:hover, button:active {
 	width: 100%;
 	background: #1b3463;
 	display: block;
+	text-align: right;
 }
 
 .slogan {

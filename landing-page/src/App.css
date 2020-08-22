@@ -139,6 +139,7 @@ article img, article video {
 
 .flyers {
 	margin: 0;
+	padding: 0 0 3% 0;
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -185,7 +186,7 @@ article img, article video {
 }
 
 footer {
-	padding: 4% 0% 5%;
+	padding: 4% 0% 3%;
 	margin: 0;
 	width: 100%;
 	background-color: #22417D;
@@ -197,10 +198,10 @@ footer > div { flex: 2; }
 
 footer > div > img {
 	width: 100%;
-	max-width: 180px;
+	max-width: 160px;
 	border-radius: 50%;
 	float: right;
-	margin: 10% 0;
+	margin: 14% 0;
 	border: #ffffff 1px solid;
 }
 
@@ -237,10 +238,13 @@ aside > p > img {
 	display: block;
 	margin: 10px auto;
   }
-  .services { padding: 11% 5% 12%; }
+  .services { 
+  	padding: 10% 0% 12%; 
+  	width: 100%;
+  }
   .services > div > img { width: 50%; }
   .download { padding: 10% 0 5%; }
-  .flyers { flex-direction: column; }
+  .flyers { flex-direction: column; padding: 0 0 5% 0; }
   .flyers > div > a > img { width: 50%; }
   .flyers > div > p > a { font-size: 15px; }
   footer > div > img {
@@ -250,7 +254,7 @@ aside > p > img {
 	width: 30%;
 	float: none;
   }
-  footer { flex-direction: column; }
+  footer { flex-direction: column; padding: 8% 0 10%; }
   aside > p > a { font-size: 15px; }
   aside > p > img { width: 8%; }
 }

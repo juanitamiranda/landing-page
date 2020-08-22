@@ -18,7 +18,6 @@ import PlanesMedicos from "./images/planesmedicos.png";
 import CancerRibbon from "./images/cancerribbon.png";
 import Vida from "./images/vida.png";
 
-
 class Main extends Component {
   constructor(){
     super();
@@ -69,77 +68,81 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        <div className="navigation">
+        <div className="navy">
           <div className="content">
-          <button onClick={this.es} title="Configurar el idioma de la página a español.">Español</button>
-          <span className="language"> | </span>
-          <button onClick={this.en} title="Set site language to English.">English</button>
+           <nav>
+              <button onClick={this.es} title="Configurar el idioma de la página a español.">Español</button>
+              <span>|</span>
+              <button onClick={this.en} title="Set site language to English.">English</button>
+            </nav>
           </div>
         </div>
-        <div className="slogan">
-        <div className="slogan-flex">
+        <div className="blue">
           <div className="content">
-          <h1>{this.state.slogan}</h1>
+            <header>
+              <h1>{this.state.slogan}</h1>
+            </header>
           </div>
         </div>
-        </div>
-      	<div className="hero">
+        <div className="white">
           <div className="content">
-          <img className="triples1" src={TripleS1} alt={this.state.triples[0]} title={this.state.triples[0]} />
-          <img className="triples2" src={TripleS2} alt={this.state.triples[1]} title={this.state.triples[1]} />
-          <video loop autoPlay className="video" title={this.state.triples[2]} >
-          <source src={require('../src/videos/triples.mp4')} type="video/mp4" />
-          </video>
-          <img className="triples3" src={TripleS3} alt={this.state.triples[3]} title={this.state.triples[3]} />
-          </div>
-      	</div>
-        <div className="content">
-        <div className="services">
-          <div className="services-flex">
-          <h4>{this.state.services[1]}</h4>
-          <img src={PlanesMedicos} alt={this.state.services[1]} title={this.state.services[1]} />
-          </div>
-          <div className="services-flex">
-          <h4>{this.state.services[2]}</h4>
-          <img src={CancerRibbon} alt={this.state.services[2]} title={this.state.services[2]} />
-          </div>
-          <div className="services-flex">
-          <h4>{this.state.services[3]}</h4>
-          <img src={Vida} alt={this.state.services[3]} title={this.state.services[3]} />
+          	<article>
+              <img src={TripleS1} alt={this.state.triples[0]} title={this.state.triples[0]} />
+              <img src={TripleS2} alt={this.state.triples[1]} title={this.state.triples[1]} />
+              <video loop autoPlay className="border" title={this.state.triples[2]} ><source src={require('../src/videos/triples.mp4')} type="video/mp4" /></video>
+              <img className="border" src={TripleS3} alt={this.state.triples[3]} title={this.state.triples[3]} />
+            </article>
+            <section className="services">
+              <div>
+                <h4>{this.state.services[1]}</h4>
+                <img src={PlanesMedicos} alt={this.state.services[1]} title={this.state.services[1]} />
+                </div>
+                <div className="services-flex">
+                <h4>{this.state.services[2]}</h4>
+                <img src={CancerRibbon} alt={this.state.services[2]} title={this.state.services[2]} />
+                </div>
+                <div className="services-flex">
+                <h4>{this.state.services[3]}</h4>
+                <img src={Vida} alt={this.state.services[3]} title={this.state.services[3]} />
+              </div>
+            </section>
+            <div className="line"></div>
+            <section className="download">
+              <h3>{this.state.download}</h3>
+            </section>
+            <section className="flyers">
+                <div>
+                  <a href={SalusPDF} target="_blank"><img src={Salus} alt={this.state.flyers[0]} title={this.state.flyers[0]} /></a>
+                  <p><a href={SalusPDF} target="_blank">{this.state.flyers[0]}</a></p>
+                </div>
+                <div>
+                  <a href={CancerPDF} target="_blank"><img src={Cancer} alt={this.state.flyers[1]} title={this.state.flyers[1]} /></a>
+                  <p><a href={CancerPDF} target="_blank">{this.state.flyers[1]}</a></p>
+                </div>
+                <div>
+                  <a href={DentalPDF} target="_blank"><img src={Dental} alt={this.state.flyers[2]} title={this.state.flyers[2]} /></a>
+                  <p><a href={DentalPDF} target="_blank">{this.state.flyers[2]}</a></p>
+                </div>
+                <div>
+                  <a href={BeneficiosPDF} target="_blank"><img src={Beneficios} alt={this.state.flyers[3]} title={this.state.flyers[3]} /></a>
+                  <p><a href={BeneficiosPDF} target="_blank">{this.state.flyers[3]}</a></p>
+                </div>
+            </section>
           </div>
         </div>
-        <div class="line"></div>
-        <div className="download">
-        <h3>{this.state.download}</h3>
-        </div>
-        <div className="flyers">
-          <div className="flyers-flex">
-            <a href={SalusPDF} target="_blank"><img src={Salus} alt={this.state.flyers[0]} title={this.state.flyers[0]} /></a>
-            <p><a href={SalusPDF} target="_blank">{this.state.flyers[0]}</a></p>
-          </div>
-          <div className="flyers-flex">
-            <a href={CancerPDF} target="_blank"><img src={Cancer} alt={this.state.flyers[1]} title={this.state.flyers[1]} /></a>
-            <p><a href={CancerPDF} target="_blank">{this.state.flyers[1]}</a></p>
-          </div>
-          <div className="flyers-flex">
-            <a href={DentalPDF} target="_blank"><img src={Dental} alt={this.state.flyers[2]} title={this.state.flyers[2]} /></a>
-            <p><a href={DentalPDF} target="_blank">{this.state.flyers[2]}</a></p>
-          </div>
-          <div className="flyers-flex">
-            <a href={BeneficiosPDF} target="_blank"><img src={Beneficios} alt={this.state.flyers[3]} title={this.state.flyers[3]} /></a>
-            <p><a href={BeneficiosPDF} target="_blank">{this.state.flyers[3]}</a></p>
-          </div>
-        </div>
-        </div>
-        <div className="info">
-          <div className="photo">
-            <img className="agentphoto" src={Juanita} alt={this.state.contact[0]} title={this.state.contact[0]} />
-          </div>
-          <div className="contact">
-            <h5>Juanita Miranda Ortiz</h5>
-            <h6>{this.state.job}</h6>
-            <p><img className="icon" src={Phone} alt={this.state.contact[2]} /> <a href="tel:+17874870474" title={this.state.contact[2]} >+1 (787) 487-0474</a></p>
-            <p><img className="icon" src={Email} alt={this.state.contact[3]} /> <a href="mailto:juani_986@yahoo.com" title={this.state.contact[3]} >juani_986@yahoo.com</a></p>
+        <div className="blue">
+          <div className="content">
+          <footer>
+            <div>
+              <img src={Juanita} alt={this.state.contact[0]} title={this.state.contact[0]} />
+            </div>
+            <aside>
+              <h5>Juanita Miranda Ortiz</h5>
+              <h6>{this.state.job}</h6>
+              <p><img src={Phone} alt={this.state.contact[2]} /> <a href="tel:+17874870474" title={this.state.contact[2]} >+1 (787) 487-0474</a></p>
+              <p><img src={Email} alt={this.state.contact[3]} /> <a href="mailto:juani_986@yahoo.com" title={this.state.contact[3]} >juani_986@yahoo.com</a></p>
+            </aside>
+          </footer>
           </div>
         </div>
       </div>

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.f37099b9.chunk.css",
-    "main.js": "/landing-page/static/js/main.a4489e13.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.a4489e13.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.7cb4f9b3.chunk.css",
+    "main.js": "/landing-page/static/js/main.011ad46e.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.011ad46e.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.8c4e35fe.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.8c4e35fe.js.map",
     "static/js/2.3873f462.chunk.js": "/landing-page/static/js/2.3873f462.chunk.js",
     "static/js/2.3873f462.chunk.js.map": "/landing-page/static/js/2.3873f462.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.9384b79badc8b2ff62f3d01cd2626f8e.js": "/landing-page/precache-manifest.9384b79badc8b2ff62f3d01cd2626f8e.js",
+    "precache-manifest.73d8a0089863b2121231a366835a81a1.js": "/landing-page/precache-manifest.73d8a0089863b2121231a366835a81a1.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.f37099b9.chunk.css.map": "/landing-page/static/css/main.f37099b9.chunk.css.map",
+    "static/css/main.7cb4f9b3.chunk.css.map": "/landing-page/static/css/main.7cb4f9b3.chunk.css.map",
     "static/js/2.3873f462.chunk.js.LICENSE.txt": "/landing-page/static/js/2.3873f462.chunk.js.LICENSE.txt",
     "static/media/FOLLETO DENTAL 2020.pdf": "/landing-page/static/media/FOLLETO DENTAL 2020.4f2fd415.pdf",
     "static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf": "/landing-page/static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.9f17d79f.pdf",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c4e35fe.js",
     "static/js/2.3873f462.chunk.js",
-    "static/css/main.f37099b9.chunk.css",
-    "static/js/main.a4489e13.chunk.js"
+    "static/css/main.7cb4f9b3.chunk.css",
+    "static/js/main.011ad46e.chunk.js"
   ]
 }

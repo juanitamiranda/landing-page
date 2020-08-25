@@ -224,6 +224,8 @@ aside > p > img {
 	padding: 0 20px 0 0;
 }
 
+.pdf img { width: 100%; max-width: 600px; display: block; margin: 0 auto; padding: 5% 0;}
+
 @media screen and (max-width: 600px) {
   h1 { font-size: 25px; }
   h2 { font-size: 22px; }

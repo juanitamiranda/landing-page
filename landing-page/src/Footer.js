@@ -15,8 +15,8 @@ class Footer extends Component {
             <aside>
               <h5>Juanita Miranda Ortiz</h5>
               <h6>{this.props.state.job}</h6>
-              <p><img src={Phone} alt={this.props.state.contact[2]} /> <a href="tel:+17874870474" title={this.props.state.contact[2]} >+1 (787) 487-0474</a></p>
-              <p><img src={Email} alt={this.props.state.contact[3]} /> <a href="mailto:juani_986@yahoo.com" title={this.props.state.contact[3]} >juani_986@yahoo.com</a></p>
+              <p><img src={Phone} alt={this.props.state.contact[1]} /> <a href="tel:+17874870474" title={this.props.state.contact[1]} >+1 (787) 487-0474</a></p>
+              <p><img src={Email} alt={this.props.state.contact[2]} /> <a href="mailto:juani_986@yahoo.com" title={this.props.state.contact[2]} >juani_986@yahoo.com</a></p>
             </aside>
           </footer>
         </div>

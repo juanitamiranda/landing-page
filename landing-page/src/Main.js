@@ -31,38 +31,38 @@ class Main extends Component {
             </article>
             <section className="services">
               <div>
+                <h4>{this.props.state.services[0]}</h4>
+                <img src={PlanesMedicos} alt={this.props.state.services[0]} title={this.props.state.services[0]} />
+              </div>
+              <div>
                 <h4>{this.props.state.services[1]}</h4>
-                <img src={PlanesMedicos} alt={this.props.state.services[1]} title={this.props.state.services[1]} />
-                </div>
-                <div className="services-flex">
+                <img src={CancerRibbon} alt={this.props.state.services[1]} title={this.props.state.services[1]} />
+              </div>
+              <div>
                 <h4>{this.props.state.services[2]}</h4>
-                <img src={CancerRibbon} alt={this.props.state.services[2]} title={this.props.state.services[2]} />
-                </div>
-                <div className="services-flex">
-                <h4>{this.props.state.services[3]}</h4>
-                <img src={Vida} alt={this.props.state.services[3]} title={this.props.state.services[3]} />
+                <img src={Vida} alt={this.props.state.services[2]} title={this.props.state.services[2]} />
               </div>
             </section>
             <div className="line"></div>
             <section className="download">
               <h3>{this.props.state.download}</h3>
             </section>
-            <section className="flyers">
+            <section className="pdf">
                 <div>
-                  <a href={SalusPDF} target="_blank" rel="noopener noreferrer"><img src={Salus} alt={this.props.state.flyers[0]} title={this.props.state.flyers[0]} /></a>
-                  <p><a href={SalusPDF} target="_blank" rel="noopener noreferrer">{this.props.state.flyers[0]}</a></p>
+                  <a href={SalusPDF} target="_blank" rel="noopener noreferrer"><img src={Salus} alt={this.props.state.pdf[0]} title={this.props.state.pdf[0]} /></a>
+                  <p><a href={SalusPDF} target="_blank" rel="noopener noreferrer">{this.props.state.pdf[0]}</a></p>
                 </div>
                 <div>
-                  <a href={CancerPDF} target="_blank" rel="noopener noreferrer"><img src={Cancer} alt={this.props.state.flyers[1]} title={this.props.state.flyers[1]} /></a>
-                  <p><a href={CancerPDF} target="_blank" rel="noopener noreferrer">{this.props.state.flyers[1]}</a></p>
+                  <a href={CancerPDF} target="_blank" rel="noopener noreferrer"><img src={Cancer} alt={this.props.state.pdf[1]} title={this.props.state.pdf[1]} /></a>
+                  <p><a href={CancerPDF} target="_blank" rel="noopener noreferrer">{this.props.state.pdf[1]}</a></p>
                 </div>
                 <div>
-                  <a href={DentalPDF} target="_blank" rel="noopener noreferrer"><img src={Dental} alt={this.props.state.flyers[2]} title={this.props.state.flyers[2]} /></a>
-                  <p><a href={DentalPDF} target="_blank" rel="noopener noreferrer">{this.props.state.flyers[2]}</a></p>
+                  <a href={DentalPDF} target="_blank" rel="noopener noreferrer"><img src={Dental} alt={this.props.state.pdf[2]} title={this.props.state.pdf[2]} /></a>
+                  <p><a href={DentalPDF} target="_blank" rel="noopener noreferrer">{this.props.state.pdf[2]}</a></p>
                 </div>
                 <div>
-                  <a href={BeneficiosPDF} target="_blank" rel="noopener noreferrer"><img src={Beneficios} alt={this.props.state.flyers[3]} title={this.props.state.flyers[3]} /></a>
-                  <p><a href={BeneficiosPDF} target="_blank" rel="noopener noreferrer">{this.props.state.flyers[3]}</a></p>
+                  <a href={BeneficiosPDF} target="_blank" rel="noopener noreferrer"><img src={Beneficios} alt={this.props.state.pdf[3]} title={this.props.state.pdf[3]} /></a>
+                  <p><a href={BeneficiosPDF} target="_blank" rel="noopener noreferrer">{this.props.state.pdf[3]}</a></p>
                 </div>
             </section>
         </div>

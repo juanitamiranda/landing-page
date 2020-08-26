@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Juanita from "./images/juanitamirandaortiz.png";
 import Phone from "./images/phone.png";
 import Email from "./images/email.png";
 
 class Footer extends Component {
-  constructor(props){
-    super(props);
-  }
-
   render() {
     return (
       <div className="footer blue">

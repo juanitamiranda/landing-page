@@ -24,28 +24,20 @@ class App extends Component {
       flyers: ["Red de Clínicas", "Póliza de Cáncer", "Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
     }
-    this.es = this.es.bind(this);
-    this.en = this.en.bind(this);
+    this.initialState = this.state;
+    this.initialize = this.initialize.bind(this);
+    this.handleLanguage = this.handleLanguage.bind(this);
   }
 
   componentDidUpdate() {
     document.title = this.state.title;
   }
 
-  es() {
-    this.setState({
-      title: "Juanita Miranda Ortiz | Agente de Seguros",
-      job: "Agente de Seguros", 
-      triples: ["Precaver te ayuda a protegerte a ti y a tu familia del cáncer y 30 enfermedades temidas.", "Triple-S Vida: Cuando más lo necesiten.", "Triple-S Directo: El plan de salud completo que te ofrece realizar consultas médicas desde tu teléfono o computadora con TELECONSULTA MD.", "Triple-S Directo te ofrece una red con más de 13,000 proveedores de salud y te brinda el innovador servicio TeleConsulta MD, que te permite consultar con un médico desde tu celular o computadora dondequiera que estés. Llámame al (787) 487-0474 para más información."],
-      slogan: "Estar cubiertos es estar seguros.",
-      services: ["Recibe orientación sobre:", "Planes Médicos", "Seguro de Cáncer", "Seguros de Vida"],
-      download: "Descargas:",
-      flyers: ["Red de Clínicas", "Póliza de Cáncer", "Cubierta Dental", "Resumen de Beneficios"],
-      contact: ["Foto de Juanita Miranda Ortiz", "Información de Contacto", "Número de Teléfono", "Correo Electrónico"]
-    });
+  initialize() {
+    this.setState(this.initialState);
   }
 
-  en() {
+  handleLanguage() {
     this.setState({
       title: "Juanita Miranda Ortiz | Insurance Agent",
       job: "Insurance Agent", 
@@ -65,9 +57,9 @@ class App extends Component {
           <div className="navy">
             <div className="content">
              <nav>
-                <button onClick={this.es} title="Configurar el idioma de la página a español.">Español</button>
+                <button onClick={this.initialize} title="Configurar el idioma de la página a español.">Español</button>
                 <span>|</span>
-                <button onClick={this.en} title="Set site language to English.">English</button>
+                <button onClick={this.handleLanguage} title="Set site language to English.">English</button>
               </nav>
             </div>
           </div>

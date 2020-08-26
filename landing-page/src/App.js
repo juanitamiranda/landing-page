@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Main from './Main';
-import Cancer from './Cancer';
 import Footer from './Footer';
 import './App.css';
 
@@ -72,13 +71,12 @@ class App extends Component {
               </nav>
             </div>
           </div>
-          <Route startsWith path="/landing-page/" component={() => (<Header state={this.state} />) }/>
+          <Route startsWith path="/" component={() => (<Header state={this.state} />) }/>
           <Switch>
-            <Route exact path="/landing-page/cancer" component={() => ( <Cancer state={this.state} /> )} />
-            <Route exact path="/landing-page/" component={() => ( <Main state={this.state} /> )} />
-            <Redirect from="*" to="/landing-page/" />
+            <Route exact path="/" component={() => ( <Main state={this.state} /> )} />
+            <Redirect from="*" to="/" />
           </Switch>
-          <Route startsWith path="/landing-page/" component={() => (<Footer state={this.state} />) }/>
+          <Route startsWith path="/" component={() => (<Footer state={this.state} />) }/>
         </div>
       </Router>
     );

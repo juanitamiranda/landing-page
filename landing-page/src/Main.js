@@ -14,9 +14,6 @@ import DentalPDF from "./pdf/FOLLETO DENTAL 2020.pdf";
 import PlanesMedicos from "./images/planesmedicos.png";
 import CancerRibbon from "./images/cancerribbon.png";
 import Vida from "./images/vida.png";
-import {
-  NavLink
-  } from 'react-router-dom';
 
 class Main extends Component {
   constructor(props){

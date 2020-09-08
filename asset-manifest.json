@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.86a5e948.chunk.css",
-    "main.js": "/static/js/main.29c3c598.chunk.js",
-    "main.js.map": "/static/js/main.29c3c598.chunk.js.map",
+    "main.css": "/static/css/main.b6e93a58.chunk.css",
+    "main.js": "/static/js/main.a57c55df.chunk.js",
+    "main.js.map": "/static/js/main.a57c55df.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.84cfcdfc.js",
     "runtime-main.js.map": "/static/js/runtime-main.84cfcdfc.js.map",
-    "static/js/2.b0130df1.chunk.js": "/static/js/2.b0130df1.chunk.js",
-    "static/js/2.b0130df1.chunk.js.map": "/static/js/2.b0130df1.chunk.js.map",
+    "static/js/2.c4768c8a.chunk.js": "/static/js/2.c4768c8a.chunk.js",
+    "static/js/2.c4768c8a.chunk.js.map": "/static/js/2.c4768c8a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e6b29f8f98417e352dc9fdab7d9c7a5.js": "/precache-manifest.6e6b29f8f98417e352dc9fdab7d9c7a5.js",
+    "precache-manifest.d75fa8266d093bf159784a51b6e9816b.js": "/precache-manifest.d75fa8266d093bf159784a51b6e9816b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.86a5e948.chunk.css.map": "/static/css/main.86a5e948.chunk.css.map",
-    "static/js/2.b0130df1.chunk.js.LICENSE.txt": "/static/js/2.b0130df1.chunk.js.LICENSE.txt",
+    "static/css/main.b6e93a58.chunk.css.map": "/static/css/main.b6e93a58.chunk.css.map",
+    "static/js/2.c4768c8a.chunk.js.LICENSE.txt": "/static/js/2.c4768c8a.chunk.js.LICENSE.txt",
     "static/media/FOLLETO DENTAL 2020.pdf": "/static/media/FOLLETO DENTAL 2020.9239b08e.pdf",
     "static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf": "/static/media/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.9f17d79f.pdf",
     "static/media/FOLLETO RESUMEN BENEFICIOS 2020.pdf": "/static/media/FOLLETO RESUMEN BENEFICIOS 2020.e1da9ea4.pdf",
     "static/media/Flyer Poliza Protect-Digital.pdf": "/static/media/Flyer Poliza Protect-Digital.5c6e6685.pdf",
+    "static/media/banner.png": "/static/media/banner.5c1dffe9.png",
     "static/media/beneficios.png": "/static/media/beneficios.14fc6bd6.png",
     "static/media/cancer.png": "/static/media/cancer.ab3efd7d.png",
     "static/media/cancerribbon.png": "/static/media/cancerribbon.c71b3484.png",
     "static/media/dental.png": "/static/media/dental.d4e35297.png",
+    "static/media/doctor.png": "/static/media/doctor.e4cec616.png",
     "static/media/email.png": "/static/media/email.b55078d5.png",
     "static/media/juanitamirandaortiz.png": "/static/media/juanitamirandaortiz.35290837.png",
     "static/media/planesmedicos.png": "/static/media/planesmedicos.8d1e2fee.png",
@@ -32,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.84cfcdfc.js",
-    "static/js/2.b0130df1.chunk.js",
-    "static/css/main.86a5e948.chunk.css",
-    "static/js/main.29c3c598.chunk.js"
+    "static/js/2.c4768c8a.chunk.js",
+    "static/css/main.b6e93a58.chunk.css",
+    "static/js/main.a57c55df.chunk.js"
   ]
 }

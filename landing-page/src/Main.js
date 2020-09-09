@@ -24,7 +24,7 @@ class Main extends Component {
           	<article>
               <img src={TripleS1} alt={this.props.state.triples[0]} title={this.props.state.triples[0]} />
               <img src={TripleS2} alt={this.props.state.triples[1]} title={this.props.state.triples[1]} />
-              <video autoPlay className="border" title={this.props.state.triples[2]} >
+              <video autoplay="false" className="border" title={this.props.state.triples[2]} >
               <source src={require('../src/videos/triples.mp4')} type="video/mp4" />
               </video>             
               <img className="border" src={TripleS3} alt={this.props.state.triples[3]} title={this.props.state.triples[3]} />

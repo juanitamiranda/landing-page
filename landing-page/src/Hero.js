@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Doctor from './images/doctor.png';
+import HeroImage from './images/hero.jpg';
 
 class Hero extends Component {
   render() {
     return (
       <div className="hero">
-         <img src={Doctor} alt="Doctor" />
+         <img src={HeroImage} alt="Seguros de Vida, Cáncer y Salud en Puerto Rico." />
       </div>
     );
   }

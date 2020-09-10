@@ -15,7 +15,7 @@ html, body {
 }
 
 .white { width: 100%; background-color: #ffffff; }
-.gray { width: 100%; background-color: #FAFAFA; }
+.gray { width: 100%; background-color: #F2F2F2; }
 .babyblue { width: 100%; background-color: #82B9D8; }
 .blue { width: 100%; background-color: #22417D; }
 .navy {	width: 100%; background-color: #1b3463; }
@@ -209,7 +209,7 @@ article img, article video {
 	padding: 4% 0%;
 	margin: 0 auto;
 	width: 100%;
-	background-color: #FAFAFA;
+	background-color: #F2F2F2;
 	display: flex;
 	flex-direction: row;
 }

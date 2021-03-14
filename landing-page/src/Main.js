@@ -11,10 +11,10 @@ import Salus from "./images/salus.png";
 import Cancer from "./images/cancer.png";
 import Dental from "./images/dental.png";
 // PDF
-import BeneficiosPDF from "./pdf/FOLLETO RESUMEN BENEFICIOS 2020.pdf";
+import BeneficiosPDF from "./pdf/Brochure-Dondequiera.pdf";
 import SalusPDF from "./pdf/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf";
-import CancerPDF from "./pdf/Flyer Poliza Protect-Digital.pdf";
-import DentalPDF from "./pdf/FOLLETO DENTAL 2020.pdf";
+import CancerPDF from "./pdf/Flyer-Poliza_Protect-Digital.pdf";
+import DentalPDF from "./pdf/Endoso-Dental_DI10-2021.pdf";
 
 class Main extends Component {
   render() {

@@ -59,7 +59,7 @@ class App extends Component {
       download: "Download",
       pdf: ["Clinics", "Cancer Insurance", "Dental Insurance", "Summary of Benefits"],
       contact: ["Juanita Miranda Ortiz", "Phone Number", "Email Address"],
-      disclaimer: "I am Juana Miranda Ortiz authorized representative of Triple-S since 2000. Representative authorized by the Office of the Commissioner of Insurance of Puerto Rico, license number 1047 to manage health, life, cancer and disability insurance in Puerto Rico."
+      disclaimer: "I am Juana Miranda Ortiz authorized representative of Triple-S since 2000.  Representative authorized by the Office of the Commissioner of Insurance of Puerto Rico, license number 1047 to manage health, life, cancer and disability insurance in Puerto Rico."
     });
   }
 

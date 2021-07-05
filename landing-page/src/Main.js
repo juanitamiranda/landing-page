@@ -6,15 +6,15 @@ import TripleS3 from "./images/triples3.jpg";
 import PlanesMedicos from "./images/planesmedicos.png";
 import CancerRibbon from "./images/cancerribbon.png";
 import Vida from "./images/vida.png";
-import Beneficios from "./images/resumen-beneficio-21.png";
-import Salus from "./images/salus.png";
+import Beneficios from "./images/beneficios-21.jpeg";
+import Salus from "./images/clinicas-21.png";
 import Cancer from "./images/cancer.png";
-import Dental from "./images/dental.png";
+import Dental from "./images/dental-21.png";
 // PDF
 import BeneficiosPDF from "./pdf/Brochure-Dondequiera.pdf";
-import SalusPDF from "./pdf/FOLLETO RED DE CLINICAS - TE CUIDAMOS DONDEQUIERA 2020.pdf";
+import SalusPDF from "./pdf/clinicas-2021.pdf";
 import CancerPDF from "./pdf/Flyer-Poliza_Protect-Digital.pdf";
-import DentalPDF from "./pdf/Endoso-Dental_DI10-2021.pdf";
+import DentalPDF from "./pdf/Dental-2021.pdf";
 
 class Main extends Component {
   render() {

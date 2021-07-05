@@ -15,14 +15,14 @@ class Footer extends Component {
             <div className="left">
               <div className="right">
                 <a href="tel:7874870474" alt={this.props.state.contact[1]}>Tel. <span className="bold">(787) 487-0474</span></a><br />
-                <a className="bold" href="mailto:juani_986@yahoo.com" alt={this.props.state.contact[2]}>juani_986@yahoo.com</a>
+                <a className="bold" href="mailto:juanita.miranda1@ssspr.com" alt={this.props.state.contact[2]}>juanita.miranda1@ssspr.com</a>
               </div>
               <h5>{this.props.state.contact[0]}</h5>
               <h6>{this.props.state.job}</h6>
               <p>{this.props.state.disclaimer}</p>
               <div className="align">
                 <a href="tel:7874870474" alt={this.props.state.contact[1]}>Tel. <span className="bold">(787) 487-0474</span></a><br />
-                <a className="bold" href="mailto:juani_986@yahoo.com" alt={this.props.state.contact[2]}>juani_986@yahoo.com</a>
+                <a className="bold" href="mailto:juanita.miranda1@ssspr.com" alt={this.props.state.contact[2]}>juanita.miranda1@ssspr.com</a>
               </div>
             </div>
           </aside>

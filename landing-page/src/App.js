@@ -30,7 +30,8 @@ class App extends Component {
       download: "Descargas",
       pdf: ["Red de Clínicas", "Póliza de Cáncer", "Cubierta Dental", "Resumen de Beneficios"],
       contact: ["Juanita Miranda Ortiz", "Número de Teléfono", "Correo Electrónico"],
-      disclaimer: "Soy Juanita Miranda Ortiz Representante Autorizado de Triple-S desde el año 2000. Le invito a llamarme para orientarle sobre la alternativa que mejor se ajuste a su necesidad. Representante Autorizado por la Oficina del Comisionado de Seguros de Puerto Rico, número de Licencia 1047 para gestionar Seguros de Salud, Vida, Cancer e incapacidad en Puerto Rico."
+      disclaimer: "Soy Juanita Miranda Ortiz Representante Autorizado de Triple-S desde el año 2000. Le invito a llamarme para orientarle sobre la alternativa que mejor se ajuste a su necesidad.",
+      subDisclaimer: "Representante Autorizado por la Oficina del Comisionado de Seguros de Puerto Rico, número de Licencia 1047 para gestionar Seguros de Salud, Vida, Cancer e incapacidad en Puerto Rico."
     }
     this.initialState = this.state;
     this.initialize = this.initialize.bind(this);
@@ -59,7 +60,8 @@ class App extends Component {
       download: "Download",
       pdf: ["Clinics", "Cancer Insurance", "Dental Insurance", "Summary of Benefits"],
       contact: ["Juanita Miranda Ortiz", "Phone Number", "Email Address"],
-      disclaimer: "I am Juanita Miranda Ortiz authorized representative of Triple-S since 2000.  I invite you to reach out and call me to help you guide you on the alternative that best suits your needs. Authorized Representative by the Office of the Commissioner of Insurance of Puerto Rico, license number 1047 to manage health, life, cancer and disability insurance in Puerto Rico."
+      disclaimer: "I am Juanita Miranda Ortiz authorized representative of Triple-S since 2000.  I invite you to reach out and call me to help you guide you on the alternative that best suits your needs.",
+      subDisclaimer: "Authorized Representative by the Office of the Commissioner of Insurance of Puerto Rico, license number 1047 to manage health, life, cancer and disability insurance in Puerto Rico."
     });
   }
 
